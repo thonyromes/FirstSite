@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Times, Serif;
+}
+
+body{
+	margin: 0; 
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+	background-color: #1da1f2;
+}
+
+.footer {
+	background-color: green;
+}
+
+#logo{
+	width: 20%;
+	padding: 1% 1% 0;
+	display:inline-block;
+	vertical-align: bottom;
+}
+
+#logo img {
+	width: 80%;
+}
+
+#navigation {
+	width: 80%;
+	padding: 1%;
+	display: inline-block;
+}
+
+#navigation a {
+	text-decoration: none;
+	background-color: rgba(0,0,255,0.5);
+	color: white;
+	padding: 1% 2%;																					
+	border: 1px solid white;
+}
+
+#navigation a:hover {
+	background-color: rgba(255,255,255,0.9);
+	color: blue;
+
+}
+
+.Welcome {
+	width: 50%;
+	margin: 5% auto;
+	text-align: center;
+}
+
+.box{
+	width: 90%;
+	margin: 5% auto;
+}
+
+.Vision{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.Mission{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.section h1 {
+	text-align: center;
+}
+
+.imgs {
+	width: 15%;
+	display: inline-block;
+}
+
+.imgs img {
+	width: 100%;
+}
+
+.gossip {
+	width: 85%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 1%;
+}
+
+.productimg {
+	width: 25%;
+	padding: 1%;
+	margin: 1%;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.productimg img {
+	width: 100%;
+}
+
